@@ -13,19 +13,25 @@ public class ObstaclesConfigs : MonoBehaviour
         canDrag = true;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
+        if(collision.gameObject.CompareTag("P2") && canDrag == false)
+        {
+            canDrag = false;
+        }
+
         if (collision.gameObject.CompareTag("P1"))
             canDrag = false;
-
+        
         else return;
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("P1"))
+        if (collision.gameObject.CompareTag("P1") && collision.gameObject.GetComponent<Rigidbody2D>().bodyType == RigidbodyType2D.Dynamic)
             canDrag = true;
         
+
         else return;
     }
 }
