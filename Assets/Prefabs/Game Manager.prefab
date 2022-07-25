@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2360997364082638904}
   - component: {fileID: 8480452375100039886}
+  - component: {fileID: -8059351727232366983}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -47,3 +48,16 @@ MonoBehaviour:
   isP1Turn: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+--- !u!114 &-8059351727232366983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2360997364082638906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a336537b19379dd428308560c0d9f11d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathHeight: -7

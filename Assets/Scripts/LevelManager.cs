@@ -24,8 +24,12 @@ public class LevelManager : MonoBehaviour
     public void NextLevel()
     {
         PlayerPrefs.SetInt("Level", (currentLevel+1) % levels.Count);
+        SceneManager.LoadScene(0);       
+    }
+
+    public void ResetLevel()
+    {
         SceneManager.LoadScene(0);
-        
     }
 
 
