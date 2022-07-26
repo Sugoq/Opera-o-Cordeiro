@@ -4132,6 +4132,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: P1
       objectReference: {fileID: 0}
+    - target: {fileID: 4591105537568938543, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.61460257
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591105537568938543, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.000967741
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
 --- !u!1 &5201535335681830353 stripped
