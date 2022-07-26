@@ -3439,6 +3439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Key
       objectReference: {fileID: 0}
+    - target: {fileID: 73175915474357805, guid: 32ea7d002112c1744a08f41e61571ee7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1967992129740657990, guid: 32ea7d002112c1744a08f41e61571ee7, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3504,6 +3508,14 @@ PrefabInstance:
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: dragSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: limitDrags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_RootOrder
@@ -3724,6 +3736,14 @@ PrefabInstance:
       propertyPath: maxDrags
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: dragSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: limitDrags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3793,6 +3813,14 @@ PrefabInstance:
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: dragSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: limitDrags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_RootOrder
@@ -3904,6 +3932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Plataform
       objectReference: {fileID: 0}
+    - target: {fileID: 3606811753687056207, guid: 0850e605113fcae47befaafdda450f89, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6871403773761947128, guid: 0850e605113fcae47befaafdda450f89, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -3992,6 +4024,10 @@ PrefabInstance:
     - target: {fileID: 929947862300602296, guid: 197da7f41ff6a024d923d346f47c3829, type: 3}
       propertyPath: m_Name
       value: EndGate
+      objectReference: {fileID: 0}
+    - target: {fileID: 929947862300602296, guid: 197da7f41ff6a024d923d346f47c3829, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2241762483761774252, guid: 197da7f41ff6a024d923d346f47c3829, type: 3}
       propertyPath: m_RootOrder
