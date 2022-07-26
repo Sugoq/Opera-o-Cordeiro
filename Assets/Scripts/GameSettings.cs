@@ -4,8 +4,8 @@ public class GameSettings : MonoBehaviour
 {
     public static GameSettings instance;
 
-    public float deathHeight;
-    public float xLimit;
+    public float yLimit; //O Y É O LIMITE VERTICAL, - É PRA BAIXO +PRA CIMA
+    public float xLimit; //O X É O LIMITE HORIZONTAL, - É PRA TRAS + PRAFRENTE
     
     private void Awake() => instance = this;
 
@@ -21,6 +21,15 @@ public class GameSettings : MonoBehaviour
         //Para chamar a funcao ResetLevel da classe LevelManager, voce pode escrever "LevelManager.instance.ResetLevel()"
 
         //Boa sorte!
+
+        if (P1Controller.instance.transform.position.x > xLimit || P1Controller.instance.transform.position.x < -xLimit)
+        {
+            LevelManager.instance.ResetLevel();
+        }
+        if (P1Controller.instance.transform.position.y < yLimit)
+        {
+           LevelManager.instance.ResetLevel();
+        }
 
     }
 
