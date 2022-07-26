@@ -237,7 +237,7 @@ MonoBehaviour:
   maxSwitchTimes: 1
   speed: 4
   gravityIncrease: -19.62
-  jumpForce: 10
+  jumpForce: 9.5
   rayDistance: 0.1
   isOnGround: 0
   isJumping: 0
