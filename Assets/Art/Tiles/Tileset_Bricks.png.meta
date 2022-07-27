@@ -1006,7 +1006,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1027,7 +1027,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1048,7 +1048,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1056,6 +1056,90 @@ TextureImporter:
       bones: []
       spriteID: c2788520e92e9124ba6bd2de06b0f0bb
       internalID: -83570243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Bricks_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15bcf79256a85c4bab0f216bbdee2c3
+      internalID: -1990570860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Bricks_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d69ebbfccd80754e9db9be93b216de9
+      internalID: -36890163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Bricks_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a6456590fdeb74dab2380d31996edb
+      internalID: 1923363903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Bricks_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b67e3924f646742b74ad2229e83c8e
+      internalID: -1636869740
       vertices: []
       indices: 
       edges: []
@@ -1080,11 +1164,13 @@ TextureImporter:
       Tileset_Bricks_22: 77608972
       Tileset_Bricks_6: 657839537
       Tileset_Bricks_29: -1282690168
+      Tileset_Bricks_48: -1636869740
       Tileset_Bricks_33: 1805395753
       Tileset_Bricks_43: 707417759
       Tileset_Bricks_13: -764554894
       Tileset_Bricks_36: 1924118385
       Tileset_Bricks_30: 1599258940
+      Tileset_Bricks_46: -36890163
       Tileset_Bricks_16: -375808348
       Tileset_Bricks_26: 2072737372
       Tileset_Bricks_41: 1266903142
@@ -1113,7 +1199,9 @@ TextureImporter:
       Tileset_Bricks_37: -963196915
       Tileset_Bricks_15: -967412445
       Tileset_Bricks_34: -451949860
+      Tileset_Bricks_45: -1990570860
       Tileset_Bricks_9: -1705057002
+      Tileset_Bricks_47: 1923363903
       Tileset_Bricks_8: -1523675042
       Tileset_Bricks_35: -879207013
   spritePackingTag: 
