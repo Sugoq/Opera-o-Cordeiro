@@ -8,7 +8,7 @@ public class P1Controller : MonoBehaviour
     [SerializeField] GameObject p2;
     Animator p1Animator;
     Rigidbody2D rb;
-    Vector2 spawnOffset;
+    public Vector2 spawnOffset;
     
     public int maxSwitchTimes;
     
