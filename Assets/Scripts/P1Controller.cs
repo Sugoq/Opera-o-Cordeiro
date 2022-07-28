@@ -35,7 +35,7 @@ public class P1Controller : MonoBehaviour
         GroundCheck();
         rb = GetComponent<Rigidbody2D>();
         p1Animator = GetComponent<Animator>();
-        Physics2D.gravity = new Vector2(0, -9.8f);
+        Physics2D.gravity = new Vector2(0, -9.81f);
         Physics2D.gravity *= gravityIncrease;
 
     }

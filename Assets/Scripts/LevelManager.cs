@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
+
+    public bool forceLevel;
+    public int levelToLoad;
     
     public List<GameObject> levels = new List<GameObject>();
     private int currentLevel;
@@ -15,16 +18,24 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
-        currentLevel = PlayerPrefs.GetInt("Level", 0);
+        currentLevel = forceLevel? levelToLoad : PlayerPrefs.GetInt("Level", 0);
+        print(currentLevel);
         transform.position = Vector3.zero;
         Instantiate(levels[currentLevel], transform.position, Quaternion.identity);
+        print($"Level Atual: {levels[currentLevel]}");
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+            ResetLevel();
+    }
 
     public void NextLevel()
-    {
-        PlayerPrefs.SetInt("Level", (currentLevel+1) % levels.Count);
-        SceneManager.LoadScene(0);       
+    {     
+        if(!forceLevel)PlayerPrefs.SetInt("Level", (currentLevel + 1) % levels.Count);
+        
+        SceneManager.LoadScene(0);          
     }
 
     public void ResetLevel()

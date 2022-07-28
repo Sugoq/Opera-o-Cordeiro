@@ -77,7 +77,6 @@ GameObject:
   - component: {fileID: 4591105537568938543}
   - component: {fileID: 4591105537568938542}
   - component: {fileID: 7429531546334524796}
-  - component: {fileID: 976282740752884809}
   m_Layer: 6
   m_Name: P1
   m_TagString: P1
@@ -208,7 +207,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00025343895, y: 0.1172843}
+  m_Offset: {x: -0.00025343895, y: -0.04365182}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -219,7 +218,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.62192965, y: 1.259912}
+  m_Size: {x: 0.62192965, y: 1.5817842}
   m_EdgeRadius: 0
 --- !u!114 &4591105537568938542
 MonoBehaviour:
@@ -236,6 +235,7 @@ MonoBehaviour:
   playerFoot1: {fileID: 4591105537427962437}
   playerFoot2: {fileID: 4591105536167249912}
   p2: {fileID: 5272129885860794818, guid: 95e45aefb8e983e44b47e5487f348566, type: 3}
+  spawnOffset: {x: 0.5, y: 0.5}
   maxSwitchTimes: 1
   speed: 4
   gravityIncrease: 2
@@ -261,19 +261,3 @@ MonoBehaviour:
   p1Animator: {fileID: 4591105537568938537}
   foot1: {fileID: 4591105537427962437}
   foot2: {fileID: 4591105536167249912}
---- !u!58 &976282740752884809
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4591105537568938541}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0011149645, y: -0.50274915}
-  serializedVersion: 2
-  m_Radius: 0.30997986
