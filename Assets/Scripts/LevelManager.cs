@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Sirenix.OdinInspector;
 
 public class LevelManager : MonoBehaviour
 {
@@ -24,14 +25,18 @@ public class LevelManager : MonoBehaviour
     public void NextLevel()
     {
         PlayerPrefs.SetInt("Level", (currentLevel+1) % levels.Count);
-        SceneManager.LoadScene(0);       
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);       
     }
 
     public void ResetLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-
+    [Button("Reset Levels")]
+    public void ClearPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 
 }
