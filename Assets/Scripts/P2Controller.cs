@@ -41,23 +41,24 @@ public class P2Controller : MonoBehaviour
         {
             
             rb.velocity = Vector2.zero;
-            if (isDragging) DragOff(0);
+            if (isDragging) SwitchOff();
             SwitchCharacter.instance.Switch();
+            Destroy(gameObject);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!isDragging) DragOn();
-            else DragOff(exitObjectTime);
+            else DragOff();
         }
 
         
     }
 
-    private void DragOff(float timer)
+    private void DragOff()
     {
 
-        Invoke("EnableCollider", timer);
+        Invoke("EnableCollider", 0.15f);
         dragObject.SetParent(null);
         isDragging = false;
         speed = playerSpeed;
@@ -66,6 +67,13 @@ public class P2Controller : MonoBehaviour
         dragObject.GetComponent<BoxCollider2D>().enabled = true;
         boxCollider.enabled = false;
         gameObject.layer = myLayer;
+    }
+
+    private void SwitchOff()
+    {
+        dragObject.SetParent(null);
+        dragObject.GetComponent<BoxCollider2D>().enabled = true;
+
     }
 
     void EnableCollider() => circleCollider.enabled = true;

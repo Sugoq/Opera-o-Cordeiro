@@ -5,11 +5,12 @@ public class P1Controller : MonoBehaviour
     public static P1Controller instance;
     
     [SerializeField] Transform playerFoot1, playerFoot2;
+    [SerializeField] GameObject p2;
     Animator p1Animator;
     Rigidbody2D rb;
+    Vector2 spawnOffset;
     
     public int maxSwitchTimes;
-
     
     public float speed;
     public float gravityIncrease;
@@ -34,7 +35,9 @@ public class P1Controller : MonoBehaviour
         GroundCheck();
         rb = GetComponent<Rigidbody2D>();
         p1Animator = GetComponent<Animator>();
-        Physics2D.gravity = new Vector2(0, gravityIncrease);
+        Physics2D.gravity = new Vector2(0, -9.8f);
+        Physics2D.gravity *= gravityIncrease;
+
     }
 
     // Update is called once per frame
@@ -49,7 +52,7 @@ public class P1Controller : MonoBehaviour
             switchTimes++;
             p1Animator.SetBool("Walk", false);
             movement = 0;
-            
+            InstantiateP2();
             SwitchCharacter.instance.Switch();
             rb.velocity = new Vector2(movement, rb.velocity.y);
         }
@@ -62,6 +65,12 @@ public class P1Controller : MonoBehaviour
                 Jump();
             }
         }       
+    }
+
+    public void InstantiateP2()
+    {
+        Vector2 spawnPos = (Vector2)transform.position + spawnOffset;
+        Instantiate(p2, spawnPos, Quaternion.identity);
     }
 
     public void ChangeBodyType()

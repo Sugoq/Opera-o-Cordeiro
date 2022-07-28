@@ -5,7 +5,7 @@ public class GameSettings : MonoBehaviour
     public static GameSettings instance;
 
     public float yLimit; //O Y É O LIMITE VERTICAL, - É PRA BAIXO +PRA CIMA
-    public float xLimit; //O X É O LIMITE HORIZONTAL, - É PRA TRAS + PRAFRENTE
+    public float xLimit; //O X É O LIMITE HORIZONTAL, - É PRA TRAS + PRA FRENTE
     
     private void Awake() => instance = this;
 

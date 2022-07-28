@@ -234,9 +234,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerFoot1: {fileID: 4591105537427962437}
   playerFoot2: {fileID: 4591105536167249912}
+  p2: {fileID: 5272129885860794818, guid: 95e45aefb8e983e44b47e5487f348566, type: 3}
   maxSwitchTimes: 1
   speed: 4
-  gravityIncrease: -19.62
+  gravityIncrease: 2
   jumpForce: 9.5
   rayDistance: 0.1
   isOnGround: 0

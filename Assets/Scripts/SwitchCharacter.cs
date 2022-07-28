@@ -7,7 +7,7 @@ public class SwitchCharacter : MonoBehaviour
     public static SwitchCharacter instance;
 
     public bool isP1Turn;
-    public GameObject p1, p2;
+    public GameObject p1;
 
     private void Awake()
     {
@@ -25,14 +25,12 @@ public class SwitchCharacter : MonoBehaviour
         if (isP1Turn)
         {
             p1.GetComponent<P1Controller>().enabled = false;
-            p2.GetComponent<P2Controller>().enabled = true;
             isP1Turn = false;
         }
         else
         {
             p1.GetComponent<P1Controller>().enabled = true;
             p1.GetComponent<P1Controller>().ChangeBodyType();
-            p2.GetComponent<P2Controller>().enabled = false;
             isP1Turn = true;
         }
     }
