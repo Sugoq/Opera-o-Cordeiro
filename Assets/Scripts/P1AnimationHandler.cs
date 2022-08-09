@@ -26,10 +26,11 @@ public class P1AnimationHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GroundCheck();
+        isGrounded = foot1.GetComponent<GroundCheck>().isGrounded || foot2.GetComponent<GroundCheck>().isGrounded;
 
 
-            if (P1Controller.instance.enabled == true)
+
+        if (P1Controller.instance.enabled == true)
             movement = Input.GetAxisRaw("Horizontal");
         else movement = 0;
 
@@ -68,17 +69,6 @@ public class P1AnimationHandler : MonoBehaviour
     void StaticRb()
     {
         rb.bodyType = RigidbodyType2D.Static;
-    }
-
-    public void GroundCheck()
-    {
-
-        Vector2 direction = Vector2.down;
-        Physics2D.queriesHitTriggers = false;
-        RaycastHit2D hit1 = Physics2D.Raycast(foot1.position, direction, rayDistance, groundLayer);
-        RaycastHit2D hit2 = Physics2D.Raycast(foot2.position, direction, rayDistance, groundLayer);
-
-        isGrounded = hit1 || hit2;
     }
 
     private void OnCollisionStay2D(Collision2D collision)

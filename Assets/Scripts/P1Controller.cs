@@ -16,7 +16,7 @@ public class P1Controller : MonoBehaviour
     public float gravityIncrease;
     public float jumpForce = 0;
     public float rayDistance;
-    public bool isOnGround;
+    public bool isGrounded;
     public bool isJumping;
     
     private float movement;
@@ -32,7 +32,6 @@ public class P1Controller : MonoBehaviour
 
     void Start()
     {
-        GroundCheck();
         rb = GetComponent<Rigidbody2D>();
         p1Animator = GetComponent<Animator>();
         Physics2D.gravity = new Vector2(0, -9.81f);
@@ -43,7 +42,9 @@ public class P1Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GroundCheck();
+        //GroundCheck();
+        isGrounded = playerFoot1.GetComponent<GroundCheck>().isGrounded || playerFoot2.GetComponent<GroundCheck>().isGrounded;
+
         movement = Input.GetAxisRaw("Horizontal");
               
         if (Input.GetKeyDown(KeyCode.E))
@@ -59,7 +60,7 @@ public class P1Controller : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            if (isOnGround && rb.velocity.y < 1)
+            if (isGrounded && rb.velocity.y < 1)
             {
                 isJumping = true;
                 Jump();
@@ -86,7 +87,7 @@ public class P1Controller : MonoBehaviour
 
 
 
-    public void GroundCheck()
+   /* public void GroundCheck()
     {
 
         Vector2 direction = Vector2.down;
@@ -98,7 +99,7 @@ public class P1Controller : MonoBehaviour
         Debug.DrawRay(playerFoot2.position, Vector2.down * rayDistance, Color.green);
 
         isOnGround = hit1 || hit2;
-    }
+    }*/
 
     public void Jump()
     {
