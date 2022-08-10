@@ -322,9 +322,9 @@ MonoBehaviour:
   maxSwitchTimes: 1
   speed: 4
   gravityIncrease: 1
-  jumpForce: 7
+  jumpForce: 9
   rayDistance: 0.1
-  isOnGround: 0
+  isGrounded: 0
   isJumping: 0
   groundLayer:
     serializedVersion: 2
@@ -356,6 +356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fdb005d0e9f8af4c981979e78a510d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 3
-  lowJumpMultiplier: 6
-  jumpingMultiplier: 1.5
+  fallMultiplier: 3.5
+  lowJumpMultiplier: 7
+  jumpingMultiplier: 2.5
