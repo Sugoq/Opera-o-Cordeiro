@@ -3,7 +3,7 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     public bool isGrounded;
-
+    
 
     private void OnCollisionExit2D(Collision2D collision)
     {
