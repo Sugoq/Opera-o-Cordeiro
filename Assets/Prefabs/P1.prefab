@@ -296,7 +296,7 @@ MonoBehaviour:
   maxSwitchTimes: 1
   speed: 4
   gravityIncrease: 1
-  jumpForce: 9
+  jumpForce: 11
   rayDistance: 0.1
   isGrounded: 0
   isJumping: 0
