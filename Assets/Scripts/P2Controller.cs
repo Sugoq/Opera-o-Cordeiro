@@ -16,7 +16,7 @@ public class P2Controller : MonoBehaviour
     private float speed;
     public float playerSpeed;
     public bool isDragging;
-    public bool canDrag;
+    //public bool canDrag;
     private void Awake() => instance = this;
 
     private void OnDestroy() => instance = null;
@@ -49,6 +49,7 @@ public class P2Controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!isDragging) DragOn();
+            
             else DragOff();
         }
 
@@ -57,13 +58,11 @@ public class P2Controller : MonoBehaviour
 
     private void DragOff()
     {
-
-        Invoke("EnableCollider", 0.15f);
         dragObject.SetParent(null);
         isDragging = false;
         speed = playerSpeed;
         boxCollider.size = Vector2.zero;
-        boxCollider.isTrigger = true;
+        //boxCollider.isTrigger = true;
         dragObject.GetComponent<BoxCollider2D>().enabled = true;
         boxCollider.enabled = false;
         gameObject.layer = myLayer;
@@ -76,17 +75,15 @@ public class P2Controller : MonoBehaviour
 
     }
 
-    void EnableCollider() => circleCollider.enabled = true;
 
     private void DragOn()
     {
         if (currentTouchingObject == null) return;
         if (dragObject.GetComponent<ObstaclesConfigs>().limitDrags && dragObject.GetComponent<ObstaclesConfigs>().dragTimes >= dragObject.GetComponent<ObstaclesConfigs>().maxDrags) return;
 
-        print("Entrando no primeiro if");
         isDragging = true;
         //Ativando BoxCollider do fanstasma para imitar a collider do objeto
-        circleCollider.enabled = false;
+        circleCollider.isTrigger = true;
         boxCollider.enabled = true;
         //Copiando o tamanho e desativando o collider do objeto
         boxCollider.size = new Vector2(dragObject.GetComponent<BoxCollider2D>().size.x * dragObject.localScale.x, dragObject.GetComponent<BoxCollider2D>().size.y * dragObject.localScale.y);
@@ -113,11 +110,13 @@ public class P2Controller : MonoBehaviour
         rb.velocity = movement * speed;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Push"))
         {
+            if (!collision.gameObject.GetComponent<ObstaclesConfigs>()) return;
             if (collision.gameObject.GetComponent<ObstaclesConfigs>().canDrag == false) return;
+            if (isDragging) return;
             currentTouchingObject = collision.gameObject;
             dragObject = currentTouchingObject.transform;
         }
@@ -137,5 +136,12 @@ public class P2Controller : MonoBehaviour
         }
         else return;
 
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        print("Trigger Exit");
+        print(collision.gameObject.GetInstanceID());
+        print(dragObject.GetInstanceID());
+        if(GameObject.ReferenceEquals(collision.gameObject, dragObject.gameObject)) circleCollider.isTrigger = false;
     }
 }

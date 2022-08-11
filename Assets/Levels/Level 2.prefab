@@ -3729,6 +3729,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: 1179944665797643135, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
+      propertyPath: fallMultiplier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1179944665797643135, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
+      propertyPath: lowJumpMultiplier
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 4591105537568938539, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
       propertyPath: m_RootOrder
       value: 8
