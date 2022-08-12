@@ -139,7 +139,6 @@ public class P2Controller : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        print("Trigger Exit");
         print(collision.gameObject.GetInstanceID());
         print(dragObject.GetInstanceID());
         if(GameObject.ReferenceEquals(collision.gameObject, dragObject.gameObject)) circleCollider.isTrigger = false;
