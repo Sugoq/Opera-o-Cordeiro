@@ -47,7 +47,6 @@ public class BetterJump : MonoBehaviour
         else if (rb.velocity.y > 0 && Input.GetButton("Jump"))
         {
             rb.gravityScale = jumpingMultiplier;
-            print("JumpingM");
         }
         else rb.gravityScale = 1;
     }

@@ -64,6 +64,7 @@ public class P1Controller : MonoBehaviour
             {
                 isJumping = true;
                 Jump();
+                AudioManager.instance.Play("Jump");
             }
         }       
     }
@@ -104,7 +105,6 @@ public class P1Controller : MonoBehaviour
     public void Jump()
     {
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        print(Physics2D.gravity);
     }
 
 }
