@@ -26,9 +26,11 @@ public class SwitchCharacter : MonoBehaviour
         {
             p1.GetComponent<P1Controller>().enabled = false;
             isP1Turn = false;
+            P1AnimationHandler.instance.InvokingP2();
         }
         else
         {
+            P1AnimationHandler.instance.InvokingP2();
             p1.GetComponent<P1Controller>().enabled = true;
             p1.GetComponent<P1Controller>().ChangeBodyType();
             isP1Turn = true;

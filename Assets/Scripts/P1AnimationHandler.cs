@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class P1AnimationHandler : MonoBehaviour
 {
+    public static P1AnimationHandler instance;
+     
     [SerializeField] Animator p1Animator;
     
     private float movementX;
@@ -12,6 +14,18 @@ public class P1AnimationHandler : MonoBehaviour
     private bool isGrounded;
     [SerializeField] Transform foot1, foot2;
     private bool isJumping;
+    private bool isInvokingP2;
+    private float idleX;
+
+    private void Awake()
+    {
+        instance = this;
+
+    }
+    private void OnDestroy()
+    {
+        instance = null;
+    }
 
     void Start()
     {
@@ -32,8 +46,8 @@ public class P1AnimationHandler : MonoBehaviour
             float moveX = Input.GetAxisRaw("Horizontal");
             if (moveX == 0 && movementX != 0)
             {
-                float IdleX = movementX; 
-                p1Animator.SetFloat("IdleX", IdleX);                
+                idleX = movementX; 
+                p1Animator.SetFloat("IdleX", idleX);                
             }
                 movementX = moveX;                
         }
@@ -73,5 +87,15 @@ public class P1AnimationHandler : MonoBehaviour
         {
             StaticRb();
         }
+    }
+
+    public void InvokingP2()
+    {
+        isInvokingP2 = !isInvokingP2;
+        p1Animator.SetBool("Invoking",isInvokingP2);
+        
+        float f = p1Animator.GetFloat("IdleX");
+        print(f);
+
     }
 }
