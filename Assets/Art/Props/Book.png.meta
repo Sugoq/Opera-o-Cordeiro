@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 16c2a8e066de4d24a976ca956c1a1306
+guid: 4465a305c1ff0b643bb71795f77f4da6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,15 +36,15 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: P2_0
+      name: Book_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43cc7efdef0f8c549916fc3e4fbdbac3
-      internalID: -1878674181
+      spriteID: 72164a3119fef8c429a308de087cb513
+      internalID: -1321713616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: P2_1
+      name: Book_1
       rect:
         serializedVersion: 2
         x: 16
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ade131e71e38b6b4dba30dfa8b42352c
-      internalID: 2069154266
+      spriteID: 1c10dccc0dfede846bfbcc1bfdc2f37d
+      internalID: -2057076004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: P2_2
+      name: Book_2
       rect:
         serializedVersion: 2
         x: 32
@@ -172,29 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d70a292886a744191b91ce4e119fb5
-      internalID: -429940278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: P2_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cb2635eb6d4fcb4599acf68d70a173c
-      internalID: -471515830
+      spriteID: 66d36f0266036564bafd3e4689fbbbd5
+      internalID: 2067245631
       vertices: []
       indices: 
       edges: []
@@ -210,10 +189,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      P2_2: -429940278
-      P2_1: 2069154266
-      P2_0: -1878674181
-      P2_3: -471515830
+      Book_2: 2067245631
+      Book_1: -2057076004
+      Book_0: -1321713616
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
