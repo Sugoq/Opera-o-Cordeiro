@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1367104087927159003}
   - component: {fileID: 3906555721710785435}
   - component: {fileID: 8276714822051776524}
+  - component: {fileID: 7089736266129434068}
   m_Layer: 3
   m_Name: Simple Plataform Fragile
   m_TagString: Push
@@ -151,3 +152,30 @@ MonoBehaviour:
   maxDrags: 1
   canDrag: 0
   dragTimes: 0
+--- !u!114 &7089736266129434068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306212929626353205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.9401266, y: -0.4346836, z: 0}
+  - {x: -0.9455696, y: 0.45101255, z: 0}
+  - {x: 0.9401266, y: 0.44556946, z: 0}
+  - {x: 0.9455697, y: -0.44012663, z: 0}
+  m_ShapePathHash: -2034537737
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -241858

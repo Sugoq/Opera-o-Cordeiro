@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8763658798522792696}
   - component: {fileID: 6724146275326611896}
   - component: {fileID: 1854045526070643247}
+  - component: {fileID: 638749819913870219}
   m_Layer: 3
   m_Name: Simple Plataform
   m_TagString: Push
@@ -151,3 +152,30 @@ MonoBehaviour:
   maxDrags: 1
   canDrag: 0
   dragTimes: 0
+--- !u!114 &638749819913870219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8023668356509740054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 1
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.9368291, y: -0.44585347, z: 0}
+  - {x: -0.94134116, y: 0.44134092, z: 0}
+  - {x: 0.9413414, y: 0.45036554, z: 0}
+  - {x: 0.9413409, y: -0.45938993, z: 0}
+  m_ShapePathHash: -187270263
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -235580
