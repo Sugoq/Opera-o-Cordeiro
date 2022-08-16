@@ -51,7 +51,6 @@ public class P1Controller : MonoBehaviour
         {
             if (switchTimes >= maxSwitchTimes) return;
             switchTimes++;
-            p1Animator.SetBool("Walk", false);
             movement = 0;
             InstantiateP2();
             SwitchCharacter.instance.Switch();

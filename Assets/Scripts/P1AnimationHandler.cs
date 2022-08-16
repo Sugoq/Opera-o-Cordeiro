@@ -12,8 +12,6 @@ public class P1AnimationHandler : MonoBehaviour
     private bool isGrounded;
     [SerializeField] Transform foot1, foot2;
     private bool isJumping;
-    private float lastMoveX;
-
 
     void Start()
     {
@@ -30,15 +28,14 @@ public class P1AnimationHandler : MonoBehaviour
 
         if (P1Controller.instance.enabled == true)
         {
+            p1Animator.SetFloat("LastX", movementX);
             float moveX = Input.GetAxisRaw("Horizontal");
             if (moveX == 0 && movementX != 0)
             {
-                lastMoveX = movementX;
-                p1Animator.SetFloat("LastMoveX", lastMoveX);                
+                float IdleX = movementX; 
+                p1Animator.SetFloat("IdleX", IdleX);                
             }
-
-                movementX = moveX;
-                
+                movementX = moveX;                
         }
         else movementX = 0;
         movementY = rb.velocity.y;

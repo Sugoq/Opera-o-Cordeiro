@@ -64,12 +64,14 @@ Material:
     - _QueueOffset: 0
     - _SrcBlend: 5
     - _Surface: 1
-    - _Thickness: 0.0009765625
+    - _Thickness: 0.003
+    - _XThickness: 0.002
+    - _YThickness: 0.02
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     - _movingLeft: 0
     m_Colors:
-    - _Color: {r: 0.1332045, g: 0.013320452, b: 0.013320452, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _ParallaxSpeed: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
