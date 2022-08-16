@@ -45,12 +45,12 @@ public class P1AnimationHandler : MonoBehaviour
         if (movement > 0)
         {
             p1Animator.SetBool("Walk", true);
-            transform.localScale = Vector3.one;
+            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
         }
         else if (movement < 0)
         {
             p1Animator.SetBool("Walk", true);
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
         }
         else
         {
