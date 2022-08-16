@@ -6,21 +6,17 @@ public class P1AnimationHandler : MonoBehaviour
 {
     [SerializeField] Animator p1Animator;
     
-    private float movement;
+    private float movementX;
+    private float movementY;
     private Rigidbody2D rb;
     private bool isGrounded;
     [SerializeField] Transform foot1, foot2;
-    LayerMask groundLayer;
-    private float rayDistance;
     private bool isJumping;
-
 
     void Start()
     {
         p1Animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        rayDistance = P1Controller.instance.rayDistance;
-        groundLayer = P1Controller.instance.groundLayer;
     }
 
     // Update is called once per frame
@@ -31,39 +27,39 @@ public class P1AnimationHandler : MonoBehaviour
 
 
         if (P1Controller.instance.enabled == true)
-            movement = Input.GetAxisRaw("Horizontal");
-        else movement = 0;
-
+        {
+            p1Animator.SetFloat("LastX", movementX);
+            float moveX = Input.GetAxisRaw("Horizontal");
+            if (moveX == 0 && movementX != 0)
+            {
+                float IdleX = movementX; 
+                p1Animator.SetFloat("IdleX", IdleX);                
+            }
+                movementX = moveX;                
+        }
+        else movementX = 0;
+        movementY = rb.velocity.y;
 
         if (P1Controller.instance.isJumping)
         {
             isJumping = true;
-            p1Animator.SetBool("Jump", true);
-            p1Animator.SetBool("IsOnGround", false);
-        }
-
-        if (movement > 0)
-        {
-            p1Animator.SetBool("Walk", true);
-            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
-        }
-        else if (movement < 0)
-        {
-            p1Animator.SetBool("Walk", true);
-            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
-        }
-        else
-        {
-            p1Animator.SetBool("Walk", false);
+            p1Animator.SetBool("Grounded", false);
         }
 
         if (isGrounded && isJumping && rb.velocity.y <= 0.001f)
         {
             P1Controller.instance.isJumping = false;
-            p1Animator.SetBool("Jump", false);
-            p1Animator.SetBool("IsOnGround", true);
-
+            p1Animator.SetBool("Grounded", true);
         }
+    }
+
+    private void FixedUpdate()
+    {
+        p1Animator.SetFloat("VelY", movementY);
+        p1Animator.SetFloat("MoveX", movementX);
+        p1Animator.SetFloat("XMag", Mathf.Abs(movementX));
+
+        
     }
 
     void StaticRb()
