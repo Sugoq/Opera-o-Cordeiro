@@ -22,9 +22,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Player Material
   m_Shader: {fileID: -6465566751694194690, guid: 5afa9fbcc50fe0d4dae60466ffa2ec92, type: 3}
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -65,8 +65,8 @@ Material:
     - _SrcBlend: 5
     - _Surface: 1
     - _Thickness: 0.003
-    - _XThickness: 0.002
-    - _YThickness: 0.02
+    - _XThickness: 0.0035
+    - _YThickness: 0.035
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
