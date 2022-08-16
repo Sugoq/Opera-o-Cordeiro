@@ -6,7 +6,8 @@ public class P1AnimationHandler : MonoBehaviour
 {
     [SerializeField] Animator p1Animator;
     
-    private float movement;
+    private float movementX;
+    private float movementY;
     private Rigidbody2D rb;
     private bool isGrounded;
     [SerializeField] Transform foot1, foot2;
@@ -31,9 +32,12 @@ public class P1AnimationHandler : MonoBehaviour
 
 
         if (P1Controller.instance.enabled == true)
-            movement = Input.GetAxisRaw("Horizontal");
-        else movement = 0;
+        {
+            movementX = Input.GetAxisRaw("Horizontal");
+        }
+        else movementX = 0;
 
+        movementY = rb.velocity.y;
 
         if (P1Controller.instance.isJumping)
         {
@@ -42,12 +46,12 @@ public class P1AnimationHandler : MonoBehaviour
             p1Animator.SetBool("IsOnGround", false);
         }
 
-        if (movement > 0)
+        if (movementX > 0)
         {
             p1Animator.SetBool("Walk", true);
             transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
         }
-        else if (movement < 0)
+        else if (movementX < 0)
         {
             p1Animator.SetBool("Walk", true);
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
@@ -64,6 +68,11 @@ public class P1AnimationHandler : MonoBehaviour
             p1Animator.SetBool("IsOnGround", true);
 
         }
+    }
+
+    private void FixedUpdate()
+    {
+        
     }
 
     void StaticRb()
