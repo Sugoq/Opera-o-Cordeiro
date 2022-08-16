@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4941823dd2462c6499ade91245015783
+guid: 893067b9c1e822d4fa46faa1716639ac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -112,111 +112,15 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 4096
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bloco_001_0
+      name: P1_Magia_E_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0d351f876306bb47aa47a9995e36759
-      internalID: -1940090940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bloco_001_1
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8621a8e426d8b424f8e01a60b325c460
-      internalID: -188462222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bloco_001_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 440db56888f1f35419c844aaf6e96db6
-      internalID: -2018281898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bloco_001_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51a85ae5e37b77d45830e72239d9cfa5
-      internalID: -236374467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bloco_001_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -226,19 +130,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47dce3996e79dfa44aca9444e6587948
-      internalID: -22197816
+      spriteID: 21d014d03c6ee8442be94d92020eb1cd
+      internalID: 1437833051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bloco_001_5
+      name: P1_Magia_E_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3945be4884db341b6fa0e839155236
+      internalID: -1515722696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P1_Magia_E_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6c7dbd08cb4fa48804ee837c6cb1e5
+      internalID: -1072680045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P1_Magia_E_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 96
-        width: 16
+        y: 0
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -247,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 670bdd1069a84994b96f7fce71e211f0
-      internalID: -594683872
+      spriteID: 8b77d6755373d694791c98bc3d0151db
+      internalID: -539664683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bloco_001_6
+      name: P1_Magia_E_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 80
+        x: 128
+        y: 0
         width: 32
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,8 +214,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2df0eb5c27cabec4aa18646557e8d330
-      internalID: 1424279647
+      spriteID: fe77386ccead5a148951f85ac4c940d5
+      internalID: -1100933741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P1_Magia_E_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1382e32125a7849b79e83d7211e196
+      internalID: -174678070
       vertices: []
       indices: 
       edges: []
@@ -285,13 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bloco_001_0: -1940090940
-      Bloco_001_1: -188462222
-      Bloco_001_6: 1424279647
-      Bloco_001_2: -2018281898
-      Bloco_001_4: -22197816
-      Bloco_001_3: -236374467
-      Bloco_001_5: -594683872
+      P1_Magia_E_4: -1100933741
+      P1_Magia_E_3: -539664683
+      P1_Magia_E_1: -1515722696
+      P1_Magia_E_2: -1072680045
+      P1_Magia_E_5: -174678070
+      P1_Magia_E_0: 1437833051
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
