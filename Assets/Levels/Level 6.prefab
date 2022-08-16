@@ -6467,7 +6467,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.836
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.55
   m_LightVolumeIntensity: 1
@@ -6482,7 +6482,7 @@ MonoBehaviour:
   m_NormalMapQuality: 1
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
@@ -6693,7 +6693,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.852
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.55
   m_LightVolumeIntensity: 1
@@ -6708,7 +6708,7 @@ MonoBehaviour:
   m_NormalMapQuality: 1
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
@@ -6909,7 +6909,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.836
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.55
   m_LightVolumeIntensity: 1
@@ -6924,7 +6924,7 @@ MonoBehaviour:
   m_NormalMapQuality: 1
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
@@ -7135,7 +7135,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.836
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.55
   m_LightVolumeIntensity: 1
@@ -7150,7 +7150,7 @@ MonoBehaviour:
   m_NormalMapQuality: 1
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
@@ -7665,7 +7665,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.836
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.55
   m_LightVolumeIntensity: 1
@@ -7680,7 +7680,7 @@ MonoBehaviour:
   m_NormalMapQuality: 1
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 1
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
@@ -7889,6 +7889,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7089736266129434068, guid: beed573b51c2d8747bafe6173f5ec150, type: 3}
+      propertyPath: m_InstanceId
+      value: -254082
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: beed573b51c2d8747bafe6173f5ec150, type: 3}
 --- !u!4 &193438018975444852 stripped
@@ -8039,6 +8043,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_InstanceId
+      value: -254124
+      objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
       value: 3
@@ -8389,6 +8397,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: -4190414909838155015, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
+      propertyPath: m_InstanceId
+      value: -254170
+      objectReference: {fileID: 0}
     - target: {fileID: 3686339430778855400, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -8451,6 +8463,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_InstanceId
+      value: -254180
+      objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
       value: 3
@@ -8522,6 +8538,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
   m_PrefabInstance: {fileID: 7056032355399128966}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1059994978454109072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8023668356509740054, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+  m_PrefabInstance: {fileID: 7056032355399128966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5298554032861063202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059994978454109072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.9504738, y: -0.45047373, z: 0}
+  - {x: -0.94221926, y: 0.44221938, z: 0}
+  - {x: 0.9504738, y: 0.44634652, z: 0}
+  - {x: 0.93396497, y: -0.44634658, z: 0}
+  m_ShapePathHash: 641086489
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 109528
 --- !u!1001 &7552612746740358628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8781,7 +8829,7 @@ MonoBehaviour:
   - {x: -0.12544441, y: 0.21547985, z: 0}
   m_ShapePathHash: -652809241
   m_Mesh: {fileID: 0}
-  m_InstanceId: 96452
+  m_InstanceId: 109496
 --- !u!4 &5201535335681830359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4591105537568938539, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}

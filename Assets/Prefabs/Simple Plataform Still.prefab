@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5304693970595257019}
   - component: {fileID: 3147838752637058819}
   - component: {fileID: 1108286819223819331}
+  - component: {fileID: -4190414909838155015}
   m_Layer: 3
   m_Name: Simple Plataform Still
   m_TagString: Push
@@ -133,3 +134,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8784478, y: 0.87241197}
   m_EdgeRadius: 0
+--- !u!114 &-4190414909838155015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424874937861319149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.94550467, y: -0.43064213, z: 0}
+  - {x: -0.95045865, y: 0.44550467, z: 0}
+  - {x: 0.93064225, y: 0.45045853, z: 0}
+  - {x: 0.94055045, y: -0.44055033, z: 0}
+  m_ShapePathHash: -48747617
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 104908
