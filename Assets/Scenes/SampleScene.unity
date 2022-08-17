@@ -407,6 +407,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
+      propertyPath: forceLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
+      propertyPath: levelToLoad
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9096235446827355732, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: m_Name
       value: Level Manager
