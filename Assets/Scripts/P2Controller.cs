@@ -43,6 +43,7 @@ public class P2Controller : MonoBehaviour
             rb.velocity = Vector2.zero;
             if (isDragging) SwitchOff();
             SwitchCharacter.instance.Switch();
+            MagicCircle.instance.DestroyPortal();
             Destroy(gameObject);
         }
 

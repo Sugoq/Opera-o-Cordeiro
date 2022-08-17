@@ -7,7 +7,8 @@ public class P1AnimationHandler : MonoBehaviour
     public static P1AnimationHandler instance;
      
     [SerializeField] Animator p1Animator;
-    
+    [SerializeField] float idleTime = 0.2f;
+    private float lastMovementX;
     private float movementX;
     private float movementY;
     private Rigidbody2D rb;
@@ -15,7 +16,8 @@ public class P1AnimationHandler : MonoBehaviour
     [SerializeField] Transform foot1, foot2;
     private bool isJumping;
     private bool isInvokingP2;
-    private float idleX;
+    public bool isIdle;
+    private bool canSlide;
 
     private void Awake()
     {
@@ -30,6 +32,7 @@ public class P1AnimationHandler : MonoBehaviour
     void Start()
     {
         p1Animator = GetComponent<Animator>();
+        print(lastMovementX);
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -42,14 +45,31 @@ public class P1AnimationHandler : MonoBehaviour
 
         if (P1Controller.instance.enabled == true)
         {
-            p1Animator.SetFloat("LastX", movementX);
+            //p1Animator.SetFloat("LastX", movementX);
             float moveX = Input.GetAxisRaw("Horizontal");
-            if (moveX == 0 && movementX != 0)
+            if ((moveX != lastMovementX) && lastMovementX != 0 && moveX != 0 && !isIdle)
             {
-                idleX = movementX; 
-                p1Animator.SetFloat("IdleX", idleX);                
+                //lastMovementX = moveX;
+                
+                p1Animator.SetFloat("LastX", moveX);
+                p1Animator.SetTrigger("Slide");
+                print("Slide!");
+                lastMovementX = 0;
             }
-                movementX = moveX;                
+            else if (movementX == 0 && moveX == 0)
+            {
+                p1Animator.SetFloat("LastX", lastMovementX);
+                StartCoroutine(CheckIdleRoutine());
+
+            }
+
+            else
+            {
+                lastMovementX = movementX;
+                p1Animator.SetFloat("LastX", lastMovementX);
+                if(isGrounded)isIdle = false;
+            }
+            movementX = moveX;                
         }
         else movementX = 0;
         movementY = rb.velocity.y;
@@ -58,6 +78,7 @@ public class P1AnimationHandler : MonoBehaviour
         {
             isJumping = true;
             p1Animator.SetBool("Grounded", false);
+            canSlide = false;
         }
 
         if (isGrounded && isJumping && rb.velocity.y <= 0.001f)
@@ -72,7 +93,6 @@ public class P1AnimationHandler : MonoBehaviour
         p1Animator.SetFloat("VelY", movementY);
         p1Animator.SetFloat("MoveX", movementX);
         p1Animator.SetFloat("XMag", Mathf.Abs(movementX));
-
         
     }
 
@@ -96,6 +116,29 @@ public class P1AnimationHandler : MonoBehaviour
         
         float f = p1Animator.GetFloat("IdleX");
         print(f);
-
     }
+
+    IEnumerator CheckIdleRoutine()
+    {
+        print("Checking Idle");
+        yield return new WaitForSeconds(idleTime);
+        if (movementX == 0)
+        {
+            isIdle = true;
+        }
+     
+        else yield return null;                      
+    }
+
+    IEnumerator OnGroundTimeToSlide()
+    {
+        yield return new WaitForSeconds(idleTime);
+        if (isGrounded)
+        {
+            isIdle = false;
+        }
+
+        else yield return null;
+    }
+
 }

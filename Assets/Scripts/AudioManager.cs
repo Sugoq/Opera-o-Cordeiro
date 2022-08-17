@@ -55,6 +55,7 @@ public class AudioManager : MonoBehaviour
             s.source.loop = s.loop;
             s.source.playOnAwake = s.playOnAwake;
             s.source.pitch = s.pitch;
+
         }
     }
     public void Play(string name)
@@ -82,6 +83,11 @@ public class AudioManager : MonoBehaviour
         }
 
         print(sound.source.name);
+        if (sound.useRandomClip)
+        {
+            int randomClip = Random.Range(0, sound.clips.Count);
+            sound.source.clip = sound.clips[randomClip];
+        }
         sound.source.Play();
     }
     
