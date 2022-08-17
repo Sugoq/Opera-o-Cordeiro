@@ -5614,7 +5614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6035308991210717697}
   - component: {fileID: 5476946801470527423}
-  - component: {fileID: 6129129201257401378}
   - component: {fileID: 3135963399478437368}
   m_Layer: 0
   m_Name: Main Camera
@@ -5681,14 +5680,6 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &6129129201257401378
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2155109097502075255}
-  m_Enabled: 1
 --- !u!114 &3135963399478437368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6014,7 +6005,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_InstanceId
-      value: -3918
+      value: -117074
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
@@ -6298,7 +6289,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4190414909838155015, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
       propertyPath: m_InstanceId
-      value: -3964
+      value: -117120
       objectReference: {fileID: 0}
     - target: {fileID: 3686339430778855400, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
       propertyPath: m_RootOrder
@@ -6364,7 +6355,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_InstanceId
-      value: -3976
+      value: -117132
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
@@ -6446,7 +6437,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_InstanceId
-      value: -3988
+      value: -117144
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
