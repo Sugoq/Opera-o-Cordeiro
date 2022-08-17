@@ -19,5 +19,5 @@ MonoBehaviour:
   loop: 1
   playOnAwake: 1
   volume: 0.4
-  pitch: 0.36
+  pitch: 1
   source: {fileID: 0}
