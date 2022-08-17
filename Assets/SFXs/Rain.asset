@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05918762d84aa61478dd0f30ed856a34, type: 3}
-  m_Name: Jump
+  m_Name: Rain
   m_EditorClassIdentifier: 
-  clipName: Jump
-  clip: {fileID: 8300000, guid: 34b97484922cbb54498376c18266dd6b, type: 3}
-  loop: 0
-  playOnAwake: 0
-  volume: 0.1
-  pitch: 0.4
+  clipName: Rain
+  clip: {fileID: 8300000, guid: 828a7c977279d0c48b7ae380f5e0bb8a, type: 3}
+  clips: []
+  useRandomClip: 0
+  loop: 1
+  playOnAwake: 1
+  volume: 0.4
+  pitch: 0.36
   source: {fileID: 0}
