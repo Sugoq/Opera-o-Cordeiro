@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Sirenix.OdinInspector;
 
 public class LevelManager : MonoBehaviour
 {
@@ -41,6 +42,13 @@ public class LevelManager : MonoBehaviour
     public void ResetLevel()
     {
         SceneManager.LoadScene(0);
+    }
+
+    [PropertySpace(SpaceBefore = 10)]
+    [Button]
+    private void ChangeSavedLevel(int level)
+    {
+        PlayerPrefs.SetInt("Level", level % levels.Count);
     }
 
 
