@@ -1,4 +1,5 @@
 using Sirenix.OdinInspector;
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -9,6 +10,9 @@ public class SFX : ScriptableObject
     public string clipName;
     public AudioClip clip;
 
+    public List<AudioClip> clips = new List<AudioClip>();
+
+    public bool useRandomClip;
     public bool loop;
     public bool playOnAwake;
     [DetailedInfoBox("Dont know what it is?", "Setting this as true will play the Sound when the game/gameObject is initialzed")]

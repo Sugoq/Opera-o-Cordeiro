@@ -54,7 +54,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Thickness: 0.0343
+    - _XThickness: 0.005
+    - _YThickness: 0.005
+    - _movingLeft: 0
     m_Colors:
-    - _Color: {r: 3.5648696, g: 2.9676142, b: 0, a: 1}
+    - _Color: {r: 1.1898451, g: 0.012459111, b: 0, a: 1}
     - _ParallaxSpeed: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

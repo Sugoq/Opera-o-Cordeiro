@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Clouds Material
+  m_Name: Clouds 3
   m_Shader: {fileID: -6465566751694194690, guid: a8fcb88718be9b24da487b1623502684, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -70,6 +70,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _ParallaxSpeed: {r: 0.01, g: 0, b: 0, a: 0}
+    - _ParallaxSpeed: {r: 0.002, g: 0, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

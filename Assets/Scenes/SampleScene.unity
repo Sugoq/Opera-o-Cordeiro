@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
@@ -142,14 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
 --- !u!114 &519420030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,7 +466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levelToLoad
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levels.Array.size
@@ -484,11 +475,11 @@ PrefabInstance:
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levels.Array.data[0]
       value: 
-      objectReference: {fileID: 4424893150198347007, guid: 7263de5babefe3647bd3f77cc38fa9d6, type: 3}
+      objectReference: {fileID: 4424893150198347007, guid: 7ae17fd793c164d48aadb5d444f3ae3b, type: 3}
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levels.Array.data[1]
       value: 
-      objectReference: {fileID: 4424893150198347007, guid: 169455c37bbf2ca449edb54562ab9039, type: 3}
+      objectReference: {fileID: 4424893150198347007, guid: fbcbba83c88fbd14dbd046fa3ac7f9f9, type: 3}
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levels.Array.data[2]
       value: 
