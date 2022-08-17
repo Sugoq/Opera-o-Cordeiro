@@ -52,22 +52,16 @@ public class P1AnimationHandler : MonoBehaviour
                 //lastMovementX = moveX;
                 
                 p1Animator.SetFloat("LastX", moveX);
-                p1Animator.SetTrigger("Slide");
-                print("Slide!");
                 lastMovementX = 0;
             }
             else if (movementX == 0 && moveX == 0)
             {
                 p1Animator.SetFloat("LastX", lastMovementX);
-                StartCoroutine(CheckIdleRoutine());
-
             }
-
             else
             {
                 lastMovementX = movementX;
                 p1Animator.SetFloat("LastX", lastMovementX);
-                if(isGrounded)isIdle = false;
             }
             movementX = moveX;                
         }
@@ -116,29 +110,6 @@ public class P1AnimationHandler : MonoBehaviour
         
         float f = p1Animator.GetFloat("IdleX");
         print(f);
-    }
-
-    IEnumerator CheckIdleRoutine()
-    {
-        print("Checking Idle");
-        yield return new WaitForSeconds(idleTime);
-        if (movementX == 0)
-        {
-            isIdle = true;
-        }
-     
-        else yield return null;                      
-    }
-
-    IEnumerator OnGroundTimeToSlide()
-    {
-        yield return new WaitForSeconds(idleTime);
-        if (isGrounded)
-        {
-            isIdle = false;
-        }
-
-        else yield return null;
     }
 
 }

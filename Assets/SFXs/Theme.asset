@@ -18,6 +18,6 @@ MonoBehaviour:
   useRandomClip: 0
   loop: 1
   playOnAwake: 1
-  volume: 0.15
+  volume: 0.08
   pitch: -2
   source: {fileID: 0}
