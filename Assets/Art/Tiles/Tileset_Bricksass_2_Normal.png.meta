@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d6ff682f51fd14644a7ace4b7777ed05
+guid: ec001854f95ff3a4bb1b809638debeb5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_Bricksass_0
+      name: Tileset_Bricksass_2_Normal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,20 +124,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 095c2dbb7692a594fa8f98e1da22714f
-      internalID: 283576633
+      spriteID: edc39be07f07a224e9aab7ae1e95e3e5
+      internalID: 107263462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_1
+      name: Tileset_Bricksass_2_Normal_1
       rect:
         serializedVersion: 2
         x: 16
@@ -145,20 +145,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78aa3b2c871afe2448f769116c25c85e
-      internalID: 1257411489
+      spriteID: 3259013a705be31478c5317d816ebc6c
+      internalID: -1692264573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_2
+      name: Tileset_Bricksass_2_Normal_2
       rect:
         serializedVersion: 2
         x: 32
@@ -166,20 +166,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b619f51326437546b969aad1d91f9c9
-      internalID: 684879836
+      spriteID: 521f23cd528172041b6cc5bf45307993
+      internalID: 29758933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_3
+      name: Tileset_Bricksass_2_Normal_3
       rect:
         serializedVersion: 2
         x: 48
@@ -187,20 +187,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7d574b5ca19769489d5ca8b8c04e43b
-      internalID: -918150137
+      spriteID: fee0aa29c4a4a96489fd4e14c3676ee8
+      internalID: 1236239427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_4
+      name: Tileset_Bricksass_2_Normal_4
       rect:
         serializedVersion: 2
         x: 64
@@ -208,20 +208,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c09c7e002e938a42a725ae1c6c4b27d
-      internalID: 560086921
+      spriteID: ffe80391bd259c64eb7e64a0303f5e69
+      internalID: 328486077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_5
+      name: Tileset_Bricksass_2_Normal_5
       rect:
         serializedVersion: 2
         x: 80
@@ -229,20 +229,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a3e6ba748edf354fb00660f5d6b8824
-      internalID: -1336740817
+      spriteID: 518424476910c094a9ffa87ee7d18073
+      internalID: 1155905971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_6
+      name: Tileset_Bricksass_2_Normal_6
       rect:
         serializedVersion: 2
         x: 96
@@ -250,41 +250,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5c3d2c99524fc40a75ad442542e3c0
-      internalID: 947921997
+      spriteID: 6cfd1f17e034f1d4ab45966bfd34a1cd
+      internalID: -880954707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_7
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 112
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef98055262568bf4fa52075139f992b9
-      internalID: 968321712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_Bricksass_8
+      name: Tileset_Bricksass_2_Normal_7
       rect:
         serializedVersion: 2
         x: 0
@@ -292,20 +271,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60f6510f6278fa0458d70dc38d4813a3
-      internalID: 1944388145
+      spriteID: 5561fb0f3ffaecd47a98f8361a6a2bbf
+      internalID: 74061144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_9
+      name: Tileset_Bricksass_2_Normal_8
       rect:
         serializedVersion: 2
         x: 16
@@ -313,20 +292,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e374b383382b11940b74e8df850558eb
-      internalID: 1291715781
+      spriteID: 8654de180f26235469f6a08e58806ce9
+      internalID: 358171123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_10
+      name: Tileset_Bricksass_2_Normal_9
       rect:
         serializedVersion: 2
         x: 32
@@ -334,20 +313,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbf2dd3521a507a4da88b992f649c72c
-      internalID: 2087758575
+      spriteID: 7528985c97f6328428d6845eb7c668b4
+      internalID: 418816947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_11
+      name: Tileset_Bricksass_2_Normal_10
       rect:
         serializedVersion: 2
         x: 48
@@ -355,20 +334,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6048ad7c449b0d4890d8b988002067a
-      internalID: -835550016
+      spriteID: 1c0e026466c4dad46988b57e2e872818
+      internalID: 386158983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_12
+      name: Tileset_Bricksass_2_Normal_11
       rect:
         serializedVersion: 2
         x: 64
@@ -376,20 +355,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55be0fe3459c6304e8fefecd0957b04c
-      internalID: -1991111021
+      spriteID: cd6d9136e26ca364fb88ef3e49195391
+      internalID: 1420810869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_13
+      name: Tileset_Bricksass_2_Normal_12
       rect:
         serializedVersion: 2
         x: 80
@@ -397,20 +376,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e873a6455a81e5447a117dba55002112
-      internalID: 377411397
+      spriteID: ac54e9aa60fabe044b82518d0c0b3cc5
+      internalID: 958849792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_14
+      name: Tileset_Bricksass_2_Normal_13
       rect:
         serializedVersion: 2
         x: 96
@@ -418,41 +397,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72d88aff1b2856940be87bef5b02e72e
-      internalID: 1499761151
+      spriteID: b140dbe261abbff4eb664b374783137e
+      internalID: 210972027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_15
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5fb9c0568e4b9b40ac436d7dfa677dc
-      internalID: 795012316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_Bricksass_16
+      name: Tileset_Bricksass_2_Normal_14
       rect:
         serializedVersion: 2
         x: 0
@@ -460,20 +418,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f834f171a7a6bbc43b73a79829d0a937
-      internalID: 935911884
+      spriteID: e61960464579af546a6ceb05a2806873
+      internalID: -1718044058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_17
+      name: Tileset_Bricksass_2_Normal_15
       rect:
         serializedVersion: 2
         x: 16
@@ -481,20 +439,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d29805676889684478cad9fb1ea74f22
-      internalID: -2097036075
+      spriteID: 3ab51cc012c085d4f96cbc26305cc8b9
+      internalID: -1373649410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_18
+      name: Tileset_Bricksass_2_Normal_16
       rect:
         serializedVersion: 2
         x: 32
@@ -502,20 +460,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8063604eef556e447b20e32f46573f56
-      internalID: -150695439
+      spriteID: f4628da364acfdc47a61702e17cc24f0
+      internalID: -227024993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_19
+      name: Tileset_Bricksass_2_Normal_17
       rect:
         serializedVersion: 2
         x: 48
@@ -523,20 +481,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f98aa6f293e7cc46877805b2a00cc7b
-      internalID: 67163792
+      spriteID: 99ceb7caba50671489890f380af07b5e
+      internalID: -44711274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_20
+      name: Tileset_Bricksass_2_Normal_18
       rect:
         serializedVersion: 2
         x: 64
@@ -544,20 +502,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af8c7d5b17862f14baeeaa99a3795002
-      internalID: 2044030054
+      spriteID: bba82c648d35c6a47a49bda4d31e93d5
+      internalID: -1225946095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_21
+      name: Tileset_Bricksass_2_Normal_19
       rect:
         serializedVersion: 2
         x: 80
@@ -565,20 +523,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58bb47d632840a34a851bee0d8f7c733
-      internalID: 752216381
+      spriteID: 8fb10377807933a45b954e628d41570a
+      internalID: -1815659015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_22
+      name: Tileset_Bricksass_2_Normal_20
       rect:
         serializedVersion: 2
         x: 96
@@ -586,41 +544,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 689d4f93a77749a4a867ebb1a3fbc894
-      internalID: -2116179220
+      spriteID: a33a28e2736ded64b8a42560c4e23f52
+      internalID: -375185714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_23
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e02f515bba039f47a7c210079eab3f2
-      internalID: 1772112874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_Bricksass_24
+      name: Tileset_Bricksass_2_Normal_21
       rect:
         serializedVersion: 2
         x: 0
@@ -628,20 +565,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60163839a1087c7429e4845fe1e11a9f
-      internalID: -88907840
+      spriteID: a2d8f5a68d3cb0e4b844125182e6d0e0
+      internalID: -364352947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_25
+      name: Tileset_Bricksass_2_Normal_22
       rect:
         serializedVersion: 2
         x: 16
@@ -649,20 +586,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 772c5864765a78f4e8c098d0856cf8f5
-      internalID: -1537338734
+      spriteID: 5e59009682b8d17478633050af753ad1
+      internalID: 1571731760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_26
+      name: Tileset_Bricksass_2_Normal_23
       rect:
         serializedVersion: 2
         x: 32
@@ -670,20 +607,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b53159b8c3788044aef31fb6b89a342
-      internalID: 1474928913
+      spriteID: 73ac5b2799c46444a9d8dce4c5be6ce7
+      internalID: -224725972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_27
+      name: Tileset_Bricksass_2_Normal_24
       rect:
         serializedVersion: 2
         x: 48
@@ -691,20 +628,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f29553cd54babc4681af701e7ce20a5
-      internalID: -1345572406
+      spriteID: 7013b218c16558c42a631ff1d3988059
+      internalID: 134158936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_28
+      name: Tileset_Bricksass_2_Normal_25
       rect:
         serializedVersion: 2
         x: 64
@@ -712,20 +649,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b39c728e1b372748a807f1acf1d905c
-      internalID: 756873876
+      spriteID: 328922bf83041b9428d702c6f3ddae4f
+      internalID: 1796880130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_29
+      name: Tileset_Bricksass_2_Normal_26
       rect:
         serializedVersion: 2
         x: 80
@@ -733,20 +670,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b26df5bfb5960bb4b8b9396dfa553418
-      internalID: 522404620
+      spriteID: dfc5c95ef4e5db647ba0d5631e20ddd3
+      internalID: 1883520756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_30
+      name: Tileset_Bricksass_2_Normal_27
       rect:
         serializedVersion: 2
         x: 96
@@ -754,41 +691,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31ccfa02a6a01af44b5786adc8c2364e
-      internalID: -485565979
+      spriteID: ff76fab0fcaa3fd43afed9c89b28611a
+      internalID: -189138342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_31
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d9f7ecfdc3478445afef0240b7b557c
-      internalID: 1923119670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_Bricksass_32
+      name: Tileset_Bricksass_2_Normal_28
       rect:
         serializedVersion: 2
         x: 0
@@ -796,20 +712,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dadae9beb6bca3243b16af92107c8655
-      internalID: 1297476596
+      spriteID: 20d2c62f1acac824aae360398c0667e8
+      internalID: 1978750489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_33
+      name: Tileset_Bricksass_2_Normal_29
       rect:
         serializedVersion: 2
         x: 16
@@ -817,20 +733,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e76fb196517a0b54baf1e776b84f5f30
-      internalID: -35418809
+      spriteID: 9c5feeb1be194444497bf60f6053e45f
+      internalID: -1308427988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_34
+      name: Tileset_Bricksass_2_Normal_30
       rect:
         serializedVersion: 2
         x: 32
@@ -838,20 +754,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9d4215f30d14a49a5e19068be3ddfe
-      internalID: 1087667321
+      spriteID: 618a74498cf88a545ad2ef020b693236
+      internalID: -618373873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_35
+      name: Tileset_Bricksass_2_Normal_31
       rect:
         serializedVersion: 2
         x: 48
@@ -859,20 +775,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32c417000a4cacd48b1a910bce6b7b4c
-      internalID: -10134837
+      spriteID: 57e85511865e01749a82e5649736c2ff
+      internalID: -16291835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_36
+      name: Tileset_Bricksass_2_Normal_32
       rect:
         serializedVersion: 2
         x: 64
@@ -880,20 +796,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdaf922126b95e349ba0a5bf7573f3d8
-      internalID: 2091401379
+      spriteID: 8a2d1b27792603f44a806f94f81b8a85
+      internalID: -196706748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_37
+      name: Tileset_Bricksass_2_Normal_33
       rect:
         serializedVersion: 2
         x: 80
@@ -901,20 +817,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d79d7aebf968501428445f140265afc6
-      internalID: 1152978108
+      spriteID: 3f1760a05051c534184e01cf9be374bd
+      internalID: -196579050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_38
+      name: Tileset_Bricksass_2_Normal_34
       rect:
         serializedVersion: 2
         x: 96
@@ -922,41 +838,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 243ae11890a674541ab5988d80d51b50
-      internalID: -1825980650
+      spriteID: 0d27a2a6e2d14c7488f98d303701ba68
+      internalID: 887726885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_39
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: afd7e861f1d8cfa42ab245551d571bc1
-      internalID: 664794046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_Bricksass_40
+      name: Tileset_Bricksass_2_Normal_35
       rect:
         serializedVersion: 2
         x: 0
@@ -964,20 +859,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e65256142bde946438bc2453b62fd5ca
-      internalID: 473837184
+      spriteID: f0bed897400ba4f4085caf1e2f20d5b1
+      internalID: 1123960749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_41
+      name: Tileset_Bricksass_2_Normal_36
       rect:
         serializedVersion: 2
         x: 16
@@ -985,20 +880,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4edd7096b5fc5a0429ea2eebcba6aea4
-      internalID: 1401325153
+      spriteID: b19bf05e3916c1b4d9c0c918722a6fd2
+      internalID: 233655018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_42
+      name: Tileset_Bricksass_2_Normal_37
       rect:
         serializedVersion: 2
         x: 32
@@ -1006,20 +901,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a9e8303f836c2240af4fe484431dfd5
-      internalID: 1265953049
+      spriteID: a322cafe98b4a8047a168738fb15ce4b
+      internalID: -1390722681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_43
+      name: Tileset_Bricksass_2_Normal_38
       rect:
         serializedVersion: 2
         x: 48
@@ -1027,20 +922,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdd62e0c46a82484088384483efbc76f
-      internalID: -203818800
+      spriteID: 4bd31beb551dd7a4ab269db25dca7283
+      internalID: 790272910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_44
+      name: Tileset_Bricksass_2_Normal_39
       rect:
         serializedVersion: 2
         x: 64
@@ -1048,20 +943,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfda9237e246b5d4eb383d33d481df5f
-      internalID: 18873785
+      spriteID: 00d9653296ea35547a35ae1160599f27
+      internalID: 1372971980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_45
+      name: Tileset_Bricksass_2_Normal_40
       rect:
         serializedVersion: 2
         x: 80
@@ -1069,20 +964,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44993e520b19fae49b0859f23a0a8f56
-      internalID: 2003096010
+      spriteID: d61721d11ae824a49be03e4f4c85dba2
+      internalID: -1742865095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_46
+      name: Tileset_Bricksass_2_Normal_41
       rect:
         serializedVersion: 2
         x: 96
@@ -1090,20 +985,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdcd7ed844e4c9644a153026dc816506
-      internalID: 1627670065
+      spriteID: 77c5bac4ae6d40445af6879fa07ef843
+      internalID: -492315102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_47
+      name: Tileset_Bricksass_2_Normal_42
       rect:
         serializedVersion: 2
         x: 112
@@ -1111,20 +1006,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293fcde518e6ca843b540f93676de669
-      internalID: -300652198
+      spriteID: befcf35742188124ca7f0a1d60a539d0
+      internalID: 1975935745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_48
+      name: Tileset_Bricksass_2_Normal_43
       rect:
         serializedVersion: 2
         x: 0
@@ -1132,20 +1027,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57cc0114c9aab754984b791262bc9f44
-      internalID: 376035622
+      spriteID: 0db042d9ade92db4d834e77e515d00c8
+      internalID: -139203178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_49
+      name: Tileset_Bricksass_2_Normal_44
       rect:
         serializedVersion: 2
         x: 16
@@ -1153,20 +1048,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bf6fb63029a23a4a84363e9e47581cc
-      internalID: -1025852507
+      spriteID: e21b802f37e107440b65b18722be290c
+      internalID: 1956894271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_50
+      name: Tileset_Bricksass_2_Normal_45
       rect:
         serializedVersion: 2
         x: 32
@@ -1174,20 +1069,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed433cca4a394c14b9475bc54bea6e21
-      internalID: 482337625
+      spriteID: 4b050411c2a59164b9485498c9c5b78a
+      internalID: 1490860363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_51
+      name: Tileset_Bricksass_2_Normal_46
       rect:
         serializedVersion: 2
         x: 48
@@ -1195,20 +1090,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba11cddf2a8e94d47aafb759ec71318f
-      internalID: -1457397640
+      spriteID: 37591cea8d7cac046ad91129286099a8
+      internalID: 1312603683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_52
+      name: Tileset_Bricksass_2_Normal_47
       rect:
         serializedVersion: 2
         x: 64
@@ -1216,20 +1111,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9db59751d558ccf409cb9ada30d9aba6
-      internalID: -1402134453
+      spriteID: 11e51edb0f73d414aab3671eff47b59f
+      internalID: -1229633288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_53
+      name: Tileset_Bricksass_2_Normal_48
       rect:
         serializedVersion: 2
         x: 80
@@ -1237,20 +1132,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aeacefbcef063ec459ac5735d5e1e92a
-      internalID: 1892218232
+      spriteID: e7357cf1207c41347bdae88a94c81d74
+      internalID: 1864322446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_54
+      name: Tileset_Bricksass_2_Normal_49
       rect:
         serializedVersion: 2
         x: 96
@@ -1258,20 +1153,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4c8f58e3980de242bc6c246c65c55bd
-      internalID: 563344236
+      spriteID: f053dae116b201146bb032fb5c7cbeb9
+      internalID: -1714698919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_55
+      name: Tileset_Bricksass_2_Normal_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1279,20 +1174,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17342eee914baf146add4f39497cd716
-      internalID: 226569054
+      spriteID: 240e5bed99e3d114486425f809c57f77
+      internalID: 51690647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_56
+      name: Tileset_Bricksass_2_Normal_51
       rect:
         serializedVersion: 2
         x: 16
@@ -1300,20 +1195,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68e2b05b457986042b31380537503abc
-      internalID: -314440045
+      spriteID: 6bdf414d412795a47aa2850451d63f03
+      internalID: -1977086124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_57
+      name: Tileset_Bricksass_2_Normal_52
       rect:
         serializedVersion: 2
         x: 32
@@ -1321,20 +1216,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47b685bce41733e4cbaf93b506ce2dde
-      internalID: -1997877530
+      spriteID: 135b4ae0d1a61e54fa93efc945e14ae1
+      internalID: -855433385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_58
+      name: Tileset_Bricksass_2_Normal_53
       rect:
         serializedVersion: 2
         x: 48
@@ -1342,20 +1237,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbf0997267675e2498ea99b774f401cd
-      internalID: 2137570533
+      spriteID: be8fdb8d133e72c40aad05dc083b3472
+      internalID: 85921710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_59
+      name: Tileset_Bricksass_2_Normal_54
       rect:
         serializedVersion: 2
         x: 64
@@ -1363,20 +1258,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f663f81c13c97a49907bc2e82a6e814
-      internalID: 9971401
+      spriteID: 59bd2e33e59cbe1428a54bd51ceb3c07
+      internalID: 1122386508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_Bricksass_60
+      name: Tileset_Bricksass_2_Normal_55
       rect:
         serializedVersion: 2
         x: 80
@@ -1384,14 +1279,14 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 857e16a5a32d74c4eb3a4c7e298069f6
-      internalID: -1765914362
+      spriteID: ba7f57cc6310a9445adbbc004331b1e7
+      internalID: 438240724
       vertices: []
       indices: 
       edges: []
@@ -1405,71 +1300,64 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: ec001854f95ff3a4bb1b809638debeb5, type: 3}
-      name: _NormalMap
+    secondaryTextures: []
     nameFileIdTable:
-      Tileset_Bricksass_49: -1025852507
-      Tileset_Bricksass_30: -485565979
-      Tileset_Bricksass_21: 752216381
-      Tileset_Bricksass_52: -1402134453
-      Tileset_Bricksass_6: 947921997
-      Tileset_Bricksass_60: -1765914362
-      Tileset_Bricksass_50: 482337625
-      Tileset_Bricksass_33: -35418809
-      Tileset_Bricksass_46: 1627670065
-      Tileset_Bricksass_27: -1345572406
-      Tileset_Bricksass_1: 1257411489
-      Tileset_Bricksass_12: -1991111021
-      Tileset_Bricksass_42: 1265953049
-      Tileset_Bricksass_15: 795012316
-      Tileset_Bricksass_41: 1401325153
-      Tileset_Bricksass_10: 2087758575
-      Tileset_Bricksass_29: 522404620
-      Tileset_Bricksass_3: -918150137
-      Tileset_Bricksass_58: 2137570533
-      Tileset_Bricksass_9: 1291715781
-      Tileset_Bricksass_8: 1944388145
-      Tileset_Bricksass_11: -835550016
-      Tileset_Bricksass_44: 18873785
-      Tileset_Bricksass_0: 283576633
-      Tileset_Bricksass_45: 2003096010
-      Tileset_Bricksass_48: 376035622
-      Tileset_Bricksass_59: 9971401
-      Tileset_Bricksass_38: -1825980650
-      Tileset_Bricksass_4: 560086921
-      Tileset_Bricksass_2: 684879836
-      Tileset_Bricksass_43: -203818800
-      Tileset_Bricksass_36: 2091401379
-      Tileset_Bricksass_35: -10134837
-      Tileset_Bricksass_24: -88907840
-      Tileset_Bricksass_47: -300652198
-      Tileset_Bricksass_53: 1892218232
-      Tileset_Bricksass_55: 226569054
-      Tileset_Bricksass_25: -1537338734
-      Tileset_Bricksass_34: 1087667321
-      Tileset_Bricksass_39: 664794046
-      Tileset_Bricksass_14: 1499761151
-      Tileset_Bricksass_40: 473837184
-      Tileset_Bricksass_16: 935911884
-      Tileset_Bricksass_26: 1474928913
-      Tileset_Bricksass_18: -150695439
-      Tileset_Bricksass_56: -314440045
-      Tileset_Bricksass_22: -2116179220
-      Tileset_Bricksass_28: 756873876
-      Tileset_Bricksass_37: 1152978108
-      Tileset_Bricksass_51: -1457397640
-      Tileset_Bricksass_17: -2097036075
-      Tileset_Bricksass_19: 67163792
-      Tileset_Bricksass_7: 968321712
-      Tileset_Bricksass_20: 2044030054
-      Tileset_Bricksass_23: 1772112874
-      Tileset_Bricksass_57: -1997877530
-      Tileset_Bricksass_31: 1923119670
-      Tileset_Bricksass_54: 563344236
-      Tileset_Bricksass_32: 1297476596
-      Tileset_Bricksass_5: -1336740817
-      Tileset_Bricksass_13: 377411397
+      Tileset_Bricksass_2_Normal_28: 1978750489
+      Tileset_Bricksass_2_Normal_3: 1236239427
+      Tileset_Bricksass_2_Normal_47: -1229633288
+      Tileset_Bricksass_2_Normal_15: -1373649410
+      Tileset_Bricksass_2_Normal_39: 1372971980
+      Tileset_Bricksass_2_Normal_34: 887726885
+      Tileset_Bricksass_2_Normal_9: 418816947
+      Tileset_Bricksass_2_Normal_45: 1490860363
+      Tileset_Bricksass_2_Normal_52: -855433385
+      Tileset_Bricksass_2_Normal_43: -139203178
+      Tileset_Bricksass_2_Normal_13: 210972027
+      Tileset_Bricksass_2_Normal_26: 1883520756
+      Tileset_Bricksass_2_Normal_23: -224725972
+      Tileset_Bricksass_2_Normal_46: 1312603683
+      Tileset_Bricksass_2_Normal_30: -618373873
+      Tileset_Bricksass_2_Normal_32: -196706748
+      Tileset_Bricksass_2_Normal_41: -492315102
+      Tileset_Bricksass_2_Normal_18: -1225946095
+      Tileset_Bricksass_2_Normal_31: -16291835
+      Tileset_Bricksass_2_Normal_51: -1977086124
+      Tileset_Bricksass_2_Normal_37: -1390722681
+      Tileset_Bricksass_2_Normal_21: -364352947
+      Tileset_Bricksass_2_Normal_53: 85921710
+      Tileset_Bricksass_2_Normal_25: 1796880130
+      Tileset_Bricksass_2_Normal_36: 233655018
+      Tileset_Bricksass_2_Normal_6: -880954707
+      Tileset_Bricksass_2_Normal_11: 1420810869
+      Tileset_Bricksass_2_Normal_20: -375185714
+      Tileset_Bricksass_2_Normal_24: 134158936
+      Tileset_Bricksass_2_Normal_12: 958849792
+      Tileset_Bricksass_2_Normal_19: -1815659015
+      Tileset_Bricksass_2_Normal_50: 51690647
+      Tileset_Bricksass_2_Normal_38: 790272910
+      Tileset_Bricksass_2_Normal_16: -227024993
+      Tileset_Bricksass_2_Normal_40: -1742865095
+      Tileset_Bricksass_2_Normal_48: 1864322446
+      Tileset_Bricksass_2_Normal_5: 1155905971
+      Tileset_Bricksass_2_Normal_29: -1308427988
+      Tileset_Bricksass_2_Normal_10: 386158983
+      Tileset_Bricksass_2_Normal_49: -1714698919
+      Tileset_Bricksass_2_Normal_7: 74061144
+      Tileset_Bricksass_2_Normal_8: 358171123
+      Tileset_Bricksass_2_Normal_54: 1122386508
+      Tileset_Bricksass_2_Normal_0: 107263462
+      Tileset_Bricksass_2_Normal_33: -196579050
+      Tileset_Bricksass_2_Normal_44: 1956894271
+      Tileset_Bricksass_2_Normal_4: 328486077
+      Tileset_Bricksass_2_Normal_14: -1718044058
+      Tileset_Bricksass_2_Normal_1: -1692264573
+      Tileset_Bricksass_2_Normal_27: -189138342
+      Tileset_Bricksass_2_Normal_22: 1571731760
+      Tileset_Bricksass_2_Normal_42: 1975935745
+      Tileset_Bricksass_2_Normal_2: 29758933
+      Tileset_Bricksass_2_Normal_55: 438240724
+      Tileset_Bricksass_2_Normal_35: 1123960749
+      Tileset_Bricksass_2_Normal_17: -44711274
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
