@@ -7615,7 +7615,7 @@ SpriteRenderer:
   m_Size: {x: 29, y: 18}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8615144043365460732
@@ -7891,7 +7891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7089736266129434068, guid: beed573b51c2d8747bafe6173f5ec150, type: 3}
       propertyPath: m_InstanceId
-      value: -254082
+      value: -602392
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: beed573b51c2d8747bafe6173f5ec150, type: 3}
@@ -8045,7 +8045,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_InstanceId
-      value: -254124
+      value: -602434
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
@@ -8399,7 +8399,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4190414909838155015, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
       propertyPath: m_InstanceId
-      value: -254170
+      value: -602480
       objectReference: {fileID: 0}
     - target: {fileID: 3686339430778855400, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
       propertyPath: m_RootOrder
@@ -8465,7 +8465,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_InstanceId
-      value: -254180
+      value: -602490
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
@@ -8569,7 +8569,7 @@ MonoBehaviour:
   - {x: 0.93396497, y: -0.44634658, z: 0}
   m_ShapePathHash: 641086489
   m_Mesh: {fileID: 0}
-  m_InstanceId: 109528
+  m_InstanceId: 158654
 --- !u!1001 &7552612746740358628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8732,7 +8732,7 @@ PrefabInstance:
     - target: {fileID: 4591105537568938538, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 00ecfd925515cdd49af18e404ce0f043, type: 2}
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 4591105537568938539, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -8829,7 +8829,7 @@ MonoBehaviour:
   - {x: -0.12544441, y: 0.21547985, z: 0}
   m_ShapePathHash: -652809241
   m_Mesh: {fileID: 0}
-  m_InstanceId: 109496
+  m_InstanceId: 158622
 --- !u!4 &5201535335681830359 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4591105537568938539, guid: 57e364aad0893ef4ab8e6f2d1927bea9, type: 3}
