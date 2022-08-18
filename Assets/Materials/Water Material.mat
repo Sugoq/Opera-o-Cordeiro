@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5987191240607229072
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -56,14 +69,29 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
+    - _PixelDensity: 400
+    - _PixelWidth: 400
+    - _Poder: 1
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionStrenght: 1
     - _SampleGI: 0
+    - _SplashRadius: 1.09
     - _SrcBlend: 1
+    - _StepSpeed: 0.02
     - _Surface: 0
     - _WaterSpeed: 0.1
     - _ZWrite: 1
+    - _splashDen: 8
+    - radius: 1.44
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.4862745, g: 0.56078434, b: 0.8117647, a: 1}
+    - _Color2: {r: 0.13307226, g: 0.16307822, b: 0.26415092, a: 1}
+    - _GradientColor: {r: 0.24595943, g: 0.29547498, b: 0.46226418, a: 0}
+    - _force: {r: 0, g: -1, b: 0, a: 0}
+    - force: {r: 0, g: -1, b: 0, a: 0}
+    - point1: {r: 1, g: 1, b: 0, a: 0}
+    - point2: {r: 1, g: 1, b: 0, a: 0}
+    - strength: {r: 0, g: -1, b: 0, a: 0}
   m_BuildTextureStacks: []
