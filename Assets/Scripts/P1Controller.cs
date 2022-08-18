@@ -20,8 +20,6 @@ public class P1Controller : MonoBehaviour
     private float movement;
     private int switchTimes;
     
-    public LayerMask groundLayer;
-
     private void Awake() => instance = this;
 
     private void OnDestroy() => instance = null;
