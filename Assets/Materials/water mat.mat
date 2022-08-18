@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water Material
+  m_Name: water mat
   m_Shader: {fileID: -6465566751694194690, guid: d8e077240db91e84191ff515a7f23f0b, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -69,14 +69,24 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
+    - _PixelDensity: 322.5
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionStrenght: 1
     - _SampleGI: 0
+    - _SplashRadius: 0
     - _SrcBlend: 1
+    - _StepSpeed: 0.01
     - _Surface: 0
     - _WaterSpeed: 0.1
     - _ZWrite: 1
+    - _splashDen: 10
+    - radius: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.7122642, g: 1, b: 0.9489945, a: 1}
+    - _Color: {r: 0.2699893, g: 0.36368325, b: 0.6037736, a: 1}
+    - _Color2: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 0}
+    - _GradientColor: {r: 0.10978996, g: 0.17310075, b: 0.2264151, a: 0}
+    - point1: {r: -20.207462, g: -3.9560218, b: 0, a: 0}
+    - point2: {r: 4.207137, g: -3.9560218, b: 0, a: 0}
   m_BuildTextureStacks: []
