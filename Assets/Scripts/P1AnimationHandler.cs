@@ -17,8 +17,6 @@ public class P1AnimationHandler : MonoBehaviour
     private bool isJumping;
     private bool isInvokingP2;
     public bool isIdle;
-    private bool canSlide;
-
     private void Awake()
     {
         instance = this;
@@ -72,7 +70,6 @@ public class P1AnimationHandler : MonoBehaviour
         {
             isJumping = true;
             p1Animator.SetBool("Grounded", false);
-            canSlide = false;
         }
 
         if (isGrounded && isJumping && rb.velocity.y <= 0.001f)
@@ -90,17 +87,20 @@ public class P1AnimationHandler : MonoBehaviour
         
     }
 
-    void StaticRb()
+    void KinematicRb()
     {
-        rb.bodyType = RigidbodyType2D.Static;
+        rb.bodyType = RigidbodyType2D.Kinematic;
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (P1Controller.instance.enabled == false && isGrounded)
         {
-            StaticRb();
+            KinematicRb();
+            transform.SetParent(collision.gameObject.transform);
+            print(collision.transform);
         }
+
     }
 
     public void InvokingP2()
@@ -109,7 +109,6 @@ public class P1AnimationHandler : MonoBehaviour
         p1Animator.SetBool("Invoking",isInvokingP2);
         
         float f = p1Animator.GetFloat("IdleX");
-        print(f);
     }
 
 }

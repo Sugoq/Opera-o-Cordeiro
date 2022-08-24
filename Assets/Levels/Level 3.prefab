@@ -4212,6 +4212,12 @@ MonoBehaviour:
   limitDrags: 1
   maxDrags: 2
   canDrag: 0
+  dragOnlyX: 0
+  dragOnlyY: 0
+  movingObject: 0
+  finalPosition: {x: 0, y: 0}
+  startMoveDelay: 0
+  movingTime: 0
   dragTimes: 0
 --- !u!1 &4424893150198347007
 GameObject:
@@ -4343,7 +4349,7 @@ SpriteRenderer:
   m_Size: {x: 29, y: 18}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &886363307780485261
@@ -4703,9 +4709,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_InstanceId
+      value: -134574
+      objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: dragOnlyX
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: dragSpeed
@@ -4777,6 +4795,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: -4190414909838155015, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
+      propertyPath: m_InstanceId
+      value: -134584
+      objectReference: {fileID: 0}
     - target: {fileID: 3686339430778855400, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -4921,6 +4943,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: -4190414909838155015, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
+      propertyPath: m_InstanceId
+      value: -134600
+      objectReference: {fileID: 0}
     - target: {fileID: 3686339430778855400, guid: d3a3d1ceae2f154499c64027fa2da9fb, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -4983,9 +5009,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_InstanceId
+      value: -134612
+      objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: dragOnlyY
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: dragSpeed
@@ -4993,6 +5031,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: limitDrags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994976556492136256, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
@@ -5061,6 +5103,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8718455643420714105}
     m_Modifications:
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 638749819913870219, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: m_InstanceId
+      value: -134624
+      objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: maxDrags
       value: 3
@@ -5070,8 +5120,32 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: finalPos.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: limitDrags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: movingTime
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: movingObject
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: startMoveDelay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: finalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854045526070643247, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
+      propertyPath: finalPosition.y
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_RootOrder
@@ -5079,7 +5153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00002002716
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6996651784137103891, guid: 5fa940c83e0820940821432d923c3e89, type: 3}
       propertyPath: m_LocalPosition.y

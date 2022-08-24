@@ -70,6 +70,7 @@ public class P1Controller : MonoBehaviour
     public void ChangeBodyType()
     {
         rb.bodyType = RigidbodyType2D.Dynamic;
+        transform.parent = null;
     }
 
     private void FixedUpdate()

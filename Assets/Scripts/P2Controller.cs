@@ -7,6 +7,8 @@ public class P2Controller : MonoBehaviour
     [SerializeField] CircleCollider2D circleCollider;
     [SerializeField] BoxCollider2D boxCollider;
     [SerializeField] float exitObjectTime;
+    private bool lockX;
+    private bool lockY;
     GameObject currentTouchingObject;
     Rigidbody2D rb;
     Transform dragObject;
@@ -34,8 +36,11 @@ public class P2Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(lockX) movement = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
         
-        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        else if(lockY) movement = new Vector2(0, Input.GetAxisRaw("Vertical"));
+
+        else movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -67,6 +72,7 @@ public class P2Controller : MonoBehaviour
         dragObject.GetComponent<BoxCollider2D>().enabled = true;
         boxCollider.enabled = false;
         gameObject.layer = myLayer;
+        lockX = lockY = false;
     }
 
     private void SwitchOff()
@@ -81,6 +87,9 @@ public class P2Controller : MonoBehaviour
     {
         if (currentTouchingObject == null) return;
         if (dragObject.GetComponent<ObstaclesConfigs>().limitDrags && dragObject.GetComponent<ObstaclesConfigs>().dragTimes >= dragObject.GetComponent<ObstaclesConfigs>().maxDrags) return;
+
+        lockX = dragObject.GetComponent<ObstaclesConfigs>().dragOnlyX;
+        lockY = dragObject.GetComponent<ObstaclesConfigs>().dragOnlyY;
 
         isDragging = true;
         //Ativando BoxCollider do fanstasma para imitar a collider do objeto
@@ -141,7 +150,6 @@ public class P2Controller : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         print(collision.gameObject.GetInstanceID());
-        print(dragObject.GetInstanceID());
         if(GameObject.ReferenceEquals(collision.gameObject, dragObject.gameObject)) circleCollider.isTrigger = false;
     }
 }

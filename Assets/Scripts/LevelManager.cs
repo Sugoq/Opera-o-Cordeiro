@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour
     public bool forceLevel;
     public int levelToLoad;
     
-    public List<GameObject> levels = new List<GameObject>();
+    public List<GameObject> levels = new();
     private int currentLevel;
 
     private void Awake() => instance = this;
@@ -20,7 +20,6 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         currentLevel = forceLevel? levelToLoad : PlayerPrefs.GetInt("Level", 0);
-        print(currentLevel);
         transform.position = Vector3.zero;
         Instantiate(levels[currentLevel], transform.position, Quaternion.identity);
         print($"Level Atual: {levels[currentLevel]}");

@@ -25,7 +25,9 @@ public class MagicCircle : MonoBehaviour
     {
         if (invoked) return;
         Vector2 spawnPos = (Vector2)transform.position + p2Spawn;
+        Transform parent = P1AnimationHandler.instance.transform;
         Instantiate(p2, spawnPos, Quaternion.identity);
+        transform.parent = parent;
         invoked = true;
 
     }

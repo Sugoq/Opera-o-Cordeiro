@@ -120,3 +120,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   p2: {fileID: 5272129885860794818, guid: 95e45aefb8e983e44b47e5487f348566, type: 3}
   p2Spawn: {x: 0.5, y: 0}
+  parent: {fileID: 0}

@@ -10,7 +10,7 @@ public class SFX : ScriptableObject
     public string clipName;
     public AudioClip clip;
 
-    public List<AudioClip> clips = new List<AudioClip>();
+    public List<AudioClip> clips = new();
 
     public bool useRandomClip;
     public bool loop;

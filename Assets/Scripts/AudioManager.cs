@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
     [PropertySpace(SpaceBefore = 0, SpaceAfter = 20), PropertyOrder(0)]
-    [SerializeField] List<SFX> sounds = new List<SFX>();
+    [SerializeField] List<SFX> sounds = new();
     
 
     private void Awake()
@@ -31,21 +31,12 @@ public class AudioManager : MonoBehaviour
                 s.source.Play();
         }
     }
-
-
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     private void SetSource()
     {
         foreach (SFX s in sounds)
         {
-            GameObject g = new GameObject(s.clipName);
+            GameObject g = new (s.clipName);
             Transform t = g.transform;
             t.SetParent(this.transform);
             g.AddComponent<AudioSource>();
@@ -66,13 +57,11 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Missing the Clip's name");
             return;
         }
-        print("INvoked");
         SFX sound = null;
         foreach(SFX s in sounds)
         {
             if (s.clipName == name)
             {
-                print($"Found! required clip: {name} and {s.clip}");
                 sound = s;
             }
         }
@@ -82,7 +71,6 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        print(sound.source.name);
         if (sound.useRandomClip)
         {
             int randomClip = Random.Range(0, sound.clips.Count);

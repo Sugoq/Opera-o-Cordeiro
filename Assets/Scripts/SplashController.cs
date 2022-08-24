@@ -54,8 +54,8 @@ public class SplashController : MonoBehaviour
     {
         for(float t = 0; t<1; t+= Time.deltaTime/ splashDuration)
         {
-            pos1 += Vector2.left * waveVelocity * Time.deltaTime;
-            pos2 += Vector2.right * waveVelocity* Time.deltaTime;
+            pos1 += Time.deltaTime * waveVelocity * Vector2.left;
+            pos2 += Time.deltaTime * waveVelocity * Vector2.right;
             sr.material.SetVector(point1Id, pos1);
             sr.material.SetVector(point2Id, pos2);
             yield return null;
