@@ -7,7 +7,6 @@ public class P1AnimationHandler : MonoBehaviour
     public static P1AnimationHandler instance;
      
     [SerializeField] Animator p1Animator;
-    [SerializeField] float idleTime = 0.2f;
     private float lastMovementX;
     private float movementX;
     private float movementY;
@@ -16,7 +15,6 @@ public class P1AnimationHandler : MonoBehaviour
     [SerializeField] Transform foot1, foot2;
     private bool isJumping;
     private bool isInvokingP2;
-    public bool isIdle;
     private void Awake()
     {
         instance = this;
@@ -45,7 +43,7 @@ public class P1AnimationHandler : MonoBehaviour
         {
             //p1Animator.SetFloat("LastX", movementX);
             float moveX = Input.GetAxisRaw("Horizontal");
-            if ((moveX != lastMovementX) && lastMovementX != 0 && moveX != 0 && !isIdle)
+            if ((moveX != lastMovementX) && lastMovementX != 0 && moveX != 0)
             {
                 //lastMovementX = moveX;
                 
@@ -108,7 +106,6 @@ public class P1AnimationHandler : MonoBehaviour
         isInvokingP2 = !isInvokingP2;
         p1Animator.SetBool("Invoking",isInvokingP2);
         
-        float f = p1Animator.GetFloat("IdleX");
     }
 
 }

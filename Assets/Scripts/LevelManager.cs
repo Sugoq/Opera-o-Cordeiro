@@ -40,7 +40,7 @@ public class LevelManager : MonoBehaviour
 
     public void ResetLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     [PropertySpace(SpaceBefore = 10)]
