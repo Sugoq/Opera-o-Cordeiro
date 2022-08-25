@@ -8,6 +8,7 @@ public class ObstaclesConfigs : MonoBehaviour
     public bool limitDrags;
     public int maxDrags;
 
+    [HideInInspector] public bool isBeingDragged;
     [PropertySpace(SpaceBefore = 5)]
 
     public bool canDrag;

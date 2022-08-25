@@ -94,6 +94,7 @@ public class P1AnimationHandler : MonoBehaviour
     {
         if (P1Controller.instance.enabled == false && isGrounded)
         {
+            if (collision.gameObject.GetComponent<ObstaclesConfigs>().isBeingDragged && collision.gameObject.GetComponent<ObstaclesConfigs>()) return;
             KinematicRb();
             transform.SetParent(collision.gameObject.transform);
             print(collision.transform);

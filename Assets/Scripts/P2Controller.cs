@@ -73,13 +73,14 @@ public class P2Controller : MonoBehaviour
         boxCollider.enabled = false;
         gameObject.layer = myLayer;
         lockX = lockY = false;
+        dragObject.GetComponent<ObstaclesConfigs>().isBeingDragged = false;
     }
 
     private void SwitchOff()
     {
         dragObject.SetParent(null);
         dragObject.GetComponent<BoxCollider2D>().enabled = true;
-
+        dragObject.GetComponent<ObstaclesConfigs>().isBeingDragged = false;
     }
 
 
@@ -91,6 +92,7 @@ public class P2Controller : MonoBehaviour
         lockX = dragObject.GetComponent<ObstaclesConfigs>().dragOnlyX;
         lockY = dragObject.GetComponent<ObstaclesConfigs>().dragOnlyY;
 
+        dragObject.GetComponent<ObstaclesConfigs>().isBeingDragged = true;
         isDragging = true;
         //Ativando BoxCollider do fanstasma para imitar a collider do objeto
         circleCollider.isTrigger = true;
