@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
     {     
         if(!forceLevel)PlayerPrefs.SetInt("Level", (currentLevel + 1) % levels.Count);
         
-        SceneManager.LoadScene(0);          
+        SceneManager.LoadScene(1);          
     }
 
     public void ResetLevel()

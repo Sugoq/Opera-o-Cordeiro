@@ -113,6 +113,8 @@ public class P2Controller : MonoBehaviour
         //Pegando a velocidade que o fantasma pode movimentar o objeto
         speed = dragObject.GetComponent<ObstaclesConfigs>().dragSpeed;
         dragObject.GetComponent<ObstaclesConfigs>().dragTimes++;
+
+        movement = Vector2.zero;
     }
 
     void FixedUpdate()
