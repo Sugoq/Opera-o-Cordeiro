@@ -413,11 +413,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levelToLoad
-      value: 2
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levels.Array.size
-      value: 14
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: levels.Array.data[7]
@@ -447,6 +447,14 @@ PrefabInstance:
       propertyPath: levels.Array.data[13]
       value: 
       objectReference: {fileID: 4424893150198347007, guid: 1858c74b6d5f70a40b071c6006eb83ad, type: 3}
+    - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
+      propertyPath: levels.Array.data[14]
+      value: 
+      objectReference: {fileID: 4424893150198347007, guid: dde08cb322c196a4dae1e5d146615e38, type: 3}
+    - target: {fileID: 2428278422908334269, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
+      propertyPath: levels.Array.data[15]
+      value: 
+      objectReference: {fileID: 4424893150198347007, guid: a243d50f2d8ee304db46d9233399800a, type: 3}
     - target: {fileID: 9096235446827355732, guid: eb01ca473c1a24f438e5c9965c4c3df4, type: 3}
       propertyPath: m_Name
       value: Level Manager
