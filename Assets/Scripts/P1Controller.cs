@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class P1Controller : MonoBehaviour
 {
-    public static P1Controller instance;
-    
+    public static P1Controller instance;    
     [SerializeField] Transform playerFoot1, playerFoot2;
     [SerializeField] GameObject invokeCircle;
     Rigidbody2D rb;

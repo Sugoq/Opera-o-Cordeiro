@@ -313,10 +313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   p1Animator: {fileID: 4591105537568938537}
-  idleTime: 0.2
   foot1: {fileID: 4591105537427962437}
   foot2: {fileID: 4591105536167249912}
-  isIdle: 0
 --- !u!114 &1179944665797643135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +343,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.025852919, y: 0.03}
+  m_Offset: {x: -0.025852919, y: -0.012578487}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -356,5 +354,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.81290483, y: 1.6637914}
+  m_Size: {x: 0.81290483, y: 1.5786345}
   m_EdgeRadius: 0

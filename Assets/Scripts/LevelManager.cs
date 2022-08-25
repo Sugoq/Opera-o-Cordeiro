@@ -49,7 +49,4 @@ public class LevelManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("Level", level % levels.Count);
     }
-
-
-
 }

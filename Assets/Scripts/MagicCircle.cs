@@ -32,6 +32,4 @@ public class MagicCircle : MonoBehaviour
 
     }
     public void DestroyPortal() => Destroy(this.gameObject);
-
-
 }
