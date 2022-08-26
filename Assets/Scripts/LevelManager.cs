@@ -19,6 +19,7 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        print('e');
         currentLevel = forceLevel? levelToLoad : PlayerPrefs.GetInt("Level", 0);
         transform.position = Vector3.zero;
         Instantiate(levels[currentLevel], transform.position, Quaternion.identity);

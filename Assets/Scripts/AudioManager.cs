@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Sirenix.OdinInspector;
 
 public class AudioManager : MonoBehaviour
@@ -10,7 +11,7 @@ public class AudioManager : MonoBehaviour
     
 
     private void Awake()
-    {
+    {        
         if (instance == null)
             instance = this;
         else
@@ -99,9 +100,5 @@ public class AudioManager : MonoBehaviour
         Play(clipName);
     }
 
-
-
-
-
-
+    public void DestroyMe() => Destroy(gameObject);
 }

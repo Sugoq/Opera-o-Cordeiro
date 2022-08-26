@@ -27,6 +27,7 @@ public class P1Controller : MonoBehaviour
 
     void Start()
     {
+        UIController.instance.SetMaxInvocationsUI(maxSwitchTimes);
         rb = GetComponent<Rigidbody2D>();
         Physics2D.gravity = new Vector2(0, -9.81f);
         Physics2D.gravity *= gravityIncrease;
@@ -45,6 +46,7 @@ public class P1Controller : MonoBehaviour
             switchTimes++;
             movement = 0;
             InvokeP2();
+            UIController.instance.UpdateInvocations();
             SwitchCharacter.instance.Switch();
             rb.velocity = new Vector2(movement, rb.velocity.y);
         }
@@ -81,6 +83,11 @@ public class P1Controller : MonoBehaviour
     public void Jump()
     {
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+    }
+
+    public void teste()
+    {
+        print("Oi nega");
     }
 
 }
