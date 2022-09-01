@@ -2,26 +2,38 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using Sirenix.OdinInspector;
 
 public class UIController : MonoBehaviour
 {
     public static UIController instance;
 
     
-    [Tooltip("Invocation FeedBack", order = 0)]
+    [InfoBox("Put Here all UI texts to be translated")]
+    [PropertySpace(SpaceAfter = 10)]
+    [SerializeField] List<TextLanguage> uiTexts = new List<TextLanguage>();
+    
+    
     [SerializeField] GameObject invocationGroup;
+    
     [SerializeField] GameObject invocationSprite;
     [SerializeField] int invocationBlinkTime;
     List<GameObject> invocationsSprites = new List<GameObject>();
 
     [SerializeField] GameObject pausePanel;
 
-    private bool isPaused;
 
+    [SerializeField] bool isEnglish;
+    private bool isPaused;
 
     private void Awake() => instance = this;
 
     private void OnDestroy() => instance = null;
+
+    private void Start()
+    {
+        ChangeLanguage();
+    }
 
     private void Update()
     {        
@@ -33,9 +45,11 @@ public class UIController : MonoBehaviour
                 PauseGame();
             else UnpauseGame();
         }
-
-        
+      
     }
+
+
+
 
     public void NewGame()
     {
@@ -96,6 +110,23 @@ public class UIController : MonoBehaviour
         Destroy(g);
     }
 
+    public void ChangeLanguage()
+    {
+        if (isEnglish)
+        {
+            foreach(TextLanguage x in uiTexts)
+            {
+                x.uiText.text = x.textTranslate.texts[(int)LanguageKey.PT];
+            }
+        }
 
+        else 
+            foreach (TextLanguage x in uiTexts)
+            {
+                x.uiText.text = x.textTranslate.texts[(int)LanguageKey.EN];
+            }
+        isEnglish = !isEnglish;
+
+    }
 
 }
